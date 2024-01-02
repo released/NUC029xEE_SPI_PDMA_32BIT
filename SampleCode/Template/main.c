@@ -373,7 +373,7 @@ void SPI_Init(SPI_T *spi)
     SPI_Open(spi, SPI_MASTER, SPI_MODE_0, 32, SPI_FREQ);    /*CPOL:LOW,CPHA:LOW*/
     // SPI_Open(spi, SPI_MASTER, SPI_MODE_1, 32, SPI_FREQ);    /*CPOL:LOW,CPHA:HIGH*/
     // SPI_Open(spi, SPI_MASTER, SPI_MODE_2, 32, SPI_FREQ);    /*CPOL:HIGH,CPHA:LOW*/
-    // SPI_Open(spi, SPI_MASTER, SPI_MODE_3, 32, SPI_FREQ);
+    // SPI_Open(spi, SPI_MASTER, SPI_MODE_3, 32, SPI_FREQ);    /*CPOL:HIGH,CPHA:HIGH*/
 
     SPI_EnableFIFO(spi, 4, 4);
 
